@@ -1,2 +1,2 @@
 # aula-formulario
-Criando formulário simples para aula de Programação Web.
+Criando formulário simples com Bootstrap para aula de Programação Web.
