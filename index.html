@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<body class="body">
+    <div class="header">
+        
+        <h1 class="text-center">Processo seletivo Lan Education</h1>
+    </div>
+    <div class="container">
+        <form action="https://pt-br.facebook.com/">
+            <div class="form-group">
+                <label for="name">Nome completo:</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Digite seu nome">
+                <div class="container-two">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control-row col-md-4" name="email" id="email">
+
+                    <label for="birth-date">Data de nascimento:</label>
+                    <input type="date" class="form-control-row col-md-3">
+                </div>
+                <div>
+                    <label for="gender">Qual seu genero?</label>
+                    <select class="form-control" id="gender">
+                        <option value="genero1">Masculino</option>
+                        <option value="genero2">Feminino</option>
+                        <option value="genero3">LGBTQIA+</option>
+                        <option value="genero4">Prefiro não dizer</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="form-check">
+                        <label class="know-tech" for="">Quais tecnologias você conhece?</label> <br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia1">
+                        <label class="form-check-label" for="tecnologia1">JavaScript</label> <br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia2">
+                        <label class="form-check-label" for="tecnologia2">Python</label> <br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia3">
+                        <label class="form-check-label" for="tecnologia3">Java</label><br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia4">
+                        <label class="form-check-label" for="tecnologia4">C#</label> <br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia5">
+                        <label class="form-check-label" for="tecnologia5">C++</label><br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia6">
+                        <label class="form-check-label " for="tecnologia6">Ruby</label><br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia7">
+                        <label class="form-check-label " for="tecnologia7">PHP</label> <br>
+                        <input class="form-check-input" type="checkbox" value="" id="tecnologia8">
+                        <label class="form-check-label " for="tecnologia8">CSS</label>
+                </div>
+                <div> 
+                    <div class="form-group">
+                        <label for="attachcurriculum">Anexar Curriculo ou Portfólio</label>
+                        <input type="file" class="form-control-file" id="attachcurriculum">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="form-group">
+                    <label for="textarea">Nos conte sobre você: </label>
+                    <textarea class="form-control" name="textarea" id="textarea" rows="10"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-danger btn-lg" value="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
